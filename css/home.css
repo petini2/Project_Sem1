@@ -1,0 +1,187 @@
+body{
+    background-color:  rgba(242, 233, 233, 0.986);
+  }
+@media screen and (min-width: 1220px) and (max-width: 1350px){
+    .mySlides{
+        width: 170%;
+        height:620px;
+        float: left;
+    }
+    #vid{
+        align-items: center;
+    }
+    #more{
+        display: none;
+    }
+    .video{
+        margin-left: 20px;
+        height:150px;
+    }
+    #slide{
+        width: 100px;
+        height: 90px;
+    }
+    .but{
+        margin-left: 250px;
+        margin-bottom: 10px;
+        margin-top: -35px;
+        display: flex;
+    }
+}
+    
+@media screen and (max-width: 570px){
+    .mySlides{
+        width: 140%;
+        height: 250px;
+        float: left;
+    }
+    #more{
+        display: none;
+    }
+    .video{
+        margin-top: 10px;
+        margin-left: 20px;
+        height:70px;
+    }
+    #slide{
+        width: 150px;
+        float: left;
+        height: 90px;
+    }
+    a{
+        margin-top: -10px;
+        font-size: 10px;
+    }
+    .but{
+        margin-left: 980px;
+        margin-bottom: 10px;
+        margin-top: -35px;
+        display: flex;
+    }
+    .col-3{
+        width: 500px;
+    }
+}
+@media screen and (min-width: 570px) and (max-width: 768px){
+    .mySlides{
+        width: 100%;
+        height:220px;
+        float: left;
+    }
+    #more{
+        display: none;
+    }
+    .video{
+        margin-left: 20px;
+        height:70px;
+    }
+    #slide{
+        width: 150px;
+        float: left;
+        height: 70px;
+    }
+    a{
+        margin-top: -20px;
+        font-size: 10px;
+    }
+    .but{
+        margin-left: 980px;
+        margin-bottom: 10px;
+        margin-top: -35px;
+        display: flex;
+    }
+    .col-3{
+        width: 550px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 912px){
+    .mySlides{
+        width: 140%;
+        height:290px;
+        float: left;
+    }
+    #more{
+        display: none;
+    }
+    .video{
+        margin-left: 20px;
+        height:80px;
+    }
+    #slide{
+        width: 150px;
+        float: left;
+        height: 90px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .but{
+        margin-left: 980px;
+        margin-bottom: 10px;
+        margin-top: -35px;
+        display: flex;
+    }
+    .col-3{
+        width: 800px;
+    }
+}
+@media screen and (min-width: 912px) and (max-width: 1220px){
+    .mySlides{
+        width: 170%;
+        height:290px;
+        float: left;
+    }
+    #more{
+        display: none;
+    }
+    .video{
+        margin-left: 20px;
+        height: 100px;
+    }
+    #slide{
+        width: 150px;
+        float: left;
+        height: 90px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .but{
+        margin-left: 980px;
+        margin-bottom: 10px;
+        margin-top: -35px;
+        display: flex;
+    }
+    .col-3{
+        width: 900px;
+    }
+}
+@media screen and (min-width: 1350px) {
+    .mySlides{
+        width: 190%;
+        height:380px;
+        float: left;
+    }
+    #more{
+        display: none;
+    }
+    .video{
+        margin-left: 20px;
+        height: 100px;
+    }
+    #slide{
+        margin-top: -50px;
+        width: 100px;
+        float: left;
+        height: 90px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .but{
+        margin-left: 680px;
+        margin-bottom: 10px;
+        margin-top: -35px;
+        display: flex;
+    }
+}
